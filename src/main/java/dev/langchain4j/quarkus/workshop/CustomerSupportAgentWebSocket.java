@@ -1,6 +1,5 @@
-package br.com.camilaferreiranas.websocket;
+package dev.langchain4j.quarkus.workshop;
 
-import br.com.camilaferreiranas.ia.CustomerSupportAgent;
 import io.quarkus.websockets.next.OnOpen;
 import io.quarkus.websockets.next.OnTextMessage;
 import io.quarkus.websockets.next.WebSocket;

@@ -1,4 +1,4 @@
-package br.com.camilaferreiranas.controller;
+package dev.langchain4j.quarkus.workshop;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -7,10 +7,12 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import org.mvnpm.importmap.Aggregator;
 
+/**
+ * Dynamically create the import map
+ */
 @ApplicationScoped
 @Path("/_importmap")
 public class ImportmapResource {
-
 
     private String importmap;
 
